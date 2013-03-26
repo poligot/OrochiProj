@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Website bussines card, feedback</title>
+        <meta name="description" content="This site is bussines card for Pavel Maslow." />
+        <meta name="keyword" content="Pavel Maslow, Proggreammer, Html, Sql, Css, Php, Jquery" />
+        <meta name="robots" content="INDEX" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    </head>
+    <body>
+    	<div id='wrapper'>
+            <div id='doc'>
+            </div>
+            <div id ='content_feed'>	
+                 <form action="mail.php" method="POST"> 
+                <div id ="input_field">
+                    <h2>Feedback Form.....</h2>
+                    <p>Name:</p>
+                    <input type='text' placeholder='| Enter your name' name='name' />
+                    <p>Last name:</p>
+                    <input type='text' placeholder='| Enter your lastname' name ='lastname'/>
+                    <p>Email:</p>
+                    <input type='text' placeholder='| Enter your email' name ='email'/>
+                    <p>Comment:</p>
+                    <textarea name="mess" placeholder="| Enter your comment's....."></textarea>
+                    <div id ="button">
+                        <input name='sbm' type='submit' value ='Send' />
+                    </div>
+                 </div>
+                 <div id ='capcha'>
+                    <img id="captcha" src="images/captch.png" title="captc" alt="captcha" />
+                    <input type="text" placeholder="Enter captcha...." name="captcha" />
+                    <a href="#">Rebut Captcha</a>
+                    <div id="page1">
+                        <a href="index.html">BACK TO THE MAIN</a>
+                    </div>    
+                </div>
+                 </form>     
+            </div>
+    	</div>
+    </body>
+</html>    
