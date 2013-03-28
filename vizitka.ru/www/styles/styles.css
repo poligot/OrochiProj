@@ -97,6 +97,7 @@ a {
 
 #skill_text{
     margin-top:14px;
+    width: 666px;
 }
 
 #skill p {
@@ -145,13 +146,13 @@ a {
 #me h2 {
     display: block;
     margin: 9px 0 0 0;
-    width: 225px;
+    width: 420px;
     height: 30px;
     font-weight:100;
 }
 
 #me p {
-    margin: 27px 0 0 0;
+    margin: 16px 0 0 0;
 }
 
 #bottom {
@@ -176,7 +177,7 @@ a {
 }
 
 #input_field h2 {
-    margin: 31px 0 82px 7px;
+    margin: 31px 0 69px 7px;
     height: 29px;
 }
 
@@ -216,12 +217,14 @@ a {
     border-radius: 8px;
     border: none;
     color: #631a1a;
+    
 }
 
 #capcha a{
     font-size: 15px;
+    float: left;
     color: #4e1515;
-    margin: 18px 0 0 49px;
+    margin:205px 0 0 49px;
 }
 
 #page1 {
